@@ -1,4 +1,4 @@
-package org.example.avaliacao;
+package org.example.avaliacao.model;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

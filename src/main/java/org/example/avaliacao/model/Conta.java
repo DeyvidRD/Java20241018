@@ -1,4 +1,4 @@
-package org.example.avaliacao;
+package org.example.avaliacao.model;
 
 public class Conta {
     private Integer numero;

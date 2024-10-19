@@ -1,4 +1,4 @@
-package org.example.avaliacao;
+package org.example.avaliacao.model;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -55,7 +55,7 @@ public class HelloController {
   @FXML
   private Label lblSaldo;
 
-  private Conta contaAtual;  // Conta selecionada para operações
+  private Conta contaAtual;
 
   @FXML
   protected void onSelecionarTipo() {
@@ -107,7 +107,7 @@ public class HelloController {
           contaAtual.depositar(valor);
         } else {
           if (!contaAtual.sacar(valor)) {
-            alert("Saldo insuficiente!"); // Mensagem de saldo insuficiente
+            alert("Saldo insuficiente!");
             return;
           }
         }
